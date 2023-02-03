@@ -1,4 +1,4 @@
-﻿^2::
+^2::
 Gui, Add, Text, x10 y10 w100 h30, Tiedostojen sijainti:
 Gui, Add, Edit, x120 y10 w200 h30 vFolderLocation
 Gui, Add, Button, x330 y10 w80 h30 gBrowse, selaa...
@@ -33,5 +33,5 @@ Create:
     }
     MsgBox, %NumFolders% kansiota luotu paikassa %FolderLocation%
     Gui, Destroy
-
+    run, %FolderLocation%
 return
