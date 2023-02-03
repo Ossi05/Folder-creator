@@ -1,5 +1,5 @@
 ^2::
-Gui, Add, Text, x10 y10 w100 h30, Folders location:
+Gui, Add, Text, x10 y10 w100 h30, Folder location:
 Gui, Add, Edit, x120 y10 w200 h30 vFolderLocation
 Gui, Add, Button, x330 y10 w80 h30 gBrowse, Browse...
 Gui, Add, Text, x10 y50 w100 h30, Folders name:
